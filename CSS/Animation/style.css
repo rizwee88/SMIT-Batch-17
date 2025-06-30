@@ -40,3 +40,14 @@ ease  (slow start, fast middle, slow end)
 ease-in (slow start)
 
 ease-out (slow end) */
+
+.hover-box {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hover-box:hover {
+  transform: scale(1.2);
+}
