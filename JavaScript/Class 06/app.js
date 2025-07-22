@@ -14,6 +14,20 @@ console.log("Hello Students");
 
 // IF ELSE IF STATEMENT
 
+
+// var correctAnswer = "Vatican";
+// if (x === correctAnswer) {
+
+//     alert("Correct!");
+// }
+// else if (x === "Rome") {
+//     alert("Incorrect but close");
+// }
+// else {
+//     alert("Incorrect");
+// }
+
+
 // var kuchLanahai = prompt("Kia mil raha hai ");
 
 // if (kuchLanahai === "Dahi") {
