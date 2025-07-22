@@ -9,3 +9,12 @@ console.log("Hello Students");
 //NaN ==> False
 // null ==> False
 
+// var userName = prompt("Enter your username") || "Not Provided";
+
+// console.log(userName);
+
+// var isAvailable = userName && "yes";
+
+// console.log(isAvailable);
+
+// console.log(userName);
