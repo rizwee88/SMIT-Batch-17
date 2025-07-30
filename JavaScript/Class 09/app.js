@@ -12,3 +12,17 @@ console.log("Hello Students");
 // if (city.toUpperCase === "KARACHI") {
 //     alert("Welcome to city of Lights")
 // }
+
+// Array Methods
+// POP and Push 
+// Delete last value and value in last index of arrays
+
+// POP
+var Students = ["Ali", "Kamran", "Shoaib"]
+Students.pop()
+console.log(Students)
+
+// PUSH
+var Students = ["Ali", "Kamran", "Shoaib"]
+Students.push("Ahmed")
+console.log(Students)
