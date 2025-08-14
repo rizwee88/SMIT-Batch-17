@@ -21,3 +21,16 @@ if (text.indexOf("Pakistan") !== -1) {
 } else {
     console.log("Nhi Mila")
 }
+
+
+// Replace Method
+
+// var str = "Adil Ahmed"
+
+// console.log(str.replace("Ahmed", "Khan"))
+
+// Multiple Replace 
+
+var text = "The IT industry in Pakistan is  Dollar experiencing rapid growth, contributing significantly to the national economy and demonstrating potential Dollar for further expansion. It's a key sector for exports and job creation, with a large and growing pool of young, tech-savvy professionals. "
+
+console.log(text.replaceAll("Dollar", "Euro"))
