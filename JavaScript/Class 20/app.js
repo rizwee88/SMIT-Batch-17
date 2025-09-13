@@ -10,3 +10,12 @@ function functionName(parameter1, parameter2) {
 
 functionName(Argument1, Arguments2)
 
+// Example
+
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
+
+// Call Function 
+
+greet("Ali");  // Output: Hello, Ali!
