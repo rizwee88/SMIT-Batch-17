@@ -37,3 +37,14 @@ function showMessage(m, string, num) {
 
 var month = "March";
 showMessage(month, "'s winner number is ", 23);
+
+// Function with Return Statement
+
+function add(a, b) {
+  return a + b;
+}
+
+// Function Call
+
+let result = add(5, 3);
+console.log(result); // Output: 8
