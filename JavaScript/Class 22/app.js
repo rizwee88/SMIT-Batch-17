@@ -13,3 +13,20 @@ function checkAttendance(student) {
 
 console.log(checkAttendance(2233))
 
+// DOM (Document Object Model)
+
+// Inner Text
+
+// document.getElementById("main").innerText = "Adil Ahmed"
+
+// Inner HTML
+
+// document.getElementById("main").innerHTML = "<h1>Adil Ahmed</h1>"
+
+// Save Element and show in UI
+
+function submit() {
+    var input = document.getElementById("text-input")
+    console.log(input.value)
+}
+
