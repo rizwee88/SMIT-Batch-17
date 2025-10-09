@@ -12,3 +12,6 @@ function makeInvisible() {
 
 }
 
+function swapPic() {
+    document.getElementById("before").src = "https://newsaylani.firebaseapp.com/assets/images/masstraining.jpg";
+}
