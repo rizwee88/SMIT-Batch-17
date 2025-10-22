@@ -37,3 +37,8 @@ var list = document.getElementById("p1").attributes;
 var nValue = list[0].nodeValue;
 console.log(nValue)
 
+// Adding Nodes (Create Nodes)
+
+var nodeToAdd = document.createElement("p");
+
+console.log(nodeToAdd)
