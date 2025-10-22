@@ -21,6 +21,10 @@ console.log(hasClass)
 
 // Get Attributes and Set Attributes
 
- var target = document.getElementById("div1");
- var attVal = target.getAttribute("class");
- console.log(attVal)
+var target = document.getElementById("div1");
+var attVal = target.getAttribute("class");
+console.log(attVal)
+
+var target = document.getElementById("div1");
+target.setAttribute("class", "special");
+console.log(target)
