@@ -38,3 +38,13 @@ history.go(2);
 var whereUserCameFrom = document.referrer;
 
 console.log(whereUserCameFrom)
+
+// Filling the window with content
+
+var monkeyWindow = window.open();
+
+console.log(monkeyWindow)
+
+var monkeyWindow = window.open();
+var windowContent = "<h1>Capuchin monkey</h1><img src= 'monkey.jpg'><p>The word capuchin derives from a group of friars<br>named the Order of Friars Minor Capuchin who wear<br>brownrobes with large hoods covering their heads.</p>";
+monkeyWindow.document.write(windowContent);
