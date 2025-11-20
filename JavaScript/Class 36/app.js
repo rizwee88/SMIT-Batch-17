@@ -43,4 +43,14 @@ function checkPassword() {
     }
 }
 
+// Handling events within JavaScript
+
+var b1 = document.getElementById("button1");
+b1.onclick = sayHello;
+
+document.getElementById("button1").onclick = sayHello;
+
+function sayHello() {
+    alert("Hi there.");
+}
 
