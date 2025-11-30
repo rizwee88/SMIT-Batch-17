@@ -48,3 +48,16 @@ let copyStudent = { ...student };
 
 console.log(copyStudent);
 
+// Shallow Copy
+
+let obj1 = {
+  name: "Hamza",
+  address: { city: "Karachi" }
+};
+
+let obj2 = { ...obj1 }; // shallow copy
+
+obj2.address.city = "Lahore";
+
+console.log(obj1.address.city);
+
