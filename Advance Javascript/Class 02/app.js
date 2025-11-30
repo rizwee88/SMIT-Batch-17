@@ -51,11 +51,11 @@ console.log(copyStudent);
 // Shallow Copy
 
 let obj1 = {
-  name: "Hamza",
-  address: { city: "Karachi" }
+    name: "Hamza",
+    address: { city: "Karachi" }
 };
 
-let obj2 = { ...obj1 }; 
+let obj2 = { ...obj1 };
 
 obj2.address.city = "Lahore";
 
@@ -64,12 +64,34 @@ console.log(obj1.address.city);
 // Deep Copy 
 
 let obj1 = {
-  name: "Hamza",
-  address: { city: "Karachi" }
+    name: "Hamza",
+    address: { city: "Karachi" }
 };
 
-let obj2 = JSON.parse(JSON.stringify(obj1)); 
+let obj2 = JSON.parse(JSON.stringify(obj1));
 
 obj2.address.city = "Lahore";
 
-console.log(obj1.address.city); 
+console.log(obj1.address.city);
+
+
+// Enhanced Object Literals
+
+// Normal
+
+let name = "Ali";
+let age = 20;
+
+let student = {
+    name: name,
+    age: age
+};
+
+// After Enhanced Object
+
+let name = "Ali";
+let age = 20;
+
+let student = { name, age };
+
+console.log(student);
