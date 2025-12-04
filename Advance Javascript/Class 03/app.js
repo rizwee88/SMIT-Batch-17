@@ -39,6 +39,34 @@ console.log(adults);
 const fruits = ["apple", "banana", "mango"];
 fruits.forEach(fruit => console.log(fruit));
 
+// Find
+
+const numbers = [10, 20, 30, 40];
+const result = numbers.find(n => n > 25);
+console.log(result); 
+
+// Reduce
+const nums = [1, 2, 3, 4];
+const total = nums.reduce((sum, value) => sum + value, 0);
+console.log(total); 
+
+// Some
+const marks = [35, 50, 80, 90];
+const hasFail = marks.some(m => m < 40);
+console.log(hasFail);
+
+// Every
+
+const scores = [60, 70, 80];
+const allPass = scores.every(score => score >= 60);
+console.log(allPass); 
+
+// Flat
+
+const data = [1, [2, [3, 4]]];
+const flatData = data.flat(2);
+console.log(flatData); 
+
 
 
 
